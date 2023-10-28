@@ -102,7 +102,7 @@ modules:
       - sway
       - swayidle
       - swaylock
-      - swayr
+      # - swayr
       - taskopen
       - tmux
       - trash-cli
