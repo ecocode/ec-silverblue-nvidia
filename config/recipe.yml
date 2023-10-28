@@ -41,6 +41,7 @@ modules:
       - bat
       - bemenu
       - bettercap
+      - cargo
       - cryfs
       - dconf-editor
       # - distrobox
@@ -60,7 +61,7 @@ modules:
       - grim
       - hotspot
       - imv
-      - insync
+      # - insync
       - intel-media-driver
       - inxi
       - j4-dmenu-desktop
@@ -79,7 +80,7 @@ modules:
       - network-manager-applet
       - NetworkManager-tui
       - nnn
-      - nushell
+      # - nushell # try in fedora 39 again
       # - nvidia-vaapi-driver
       - nvtop
       - odt2txt
@@ -151,3 +152,5 @@ modules:
     scripts:
       # this sets up the proper policy & signing files for signed images to work
       - signing.sh
+      - nushell.sh
+      - swayr.sh
