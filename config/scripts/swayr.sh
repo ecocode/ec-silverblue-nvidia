@@ -7,4 +7,4 @@ set -oue pipefail
 
 echo 'This script will install swayr from cargo.io'
 
-cargo install --root /usr/bin swayr
+cargo install --root /usr swayr
