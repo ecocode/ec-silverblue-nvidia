@@ -7,4 +7,4 @@ set -oue pipefail
 
 echo 'This script will install nushell from cargo.io'
 
-cargo install nushell
+cargo install nu
