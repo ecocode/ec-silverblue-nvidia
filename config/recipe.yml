@@ -65,7 +65,7 @@ modules:
       - grim
       - hotspot
       - imv
-      - insync
+      # - insync
       - intel-media-driver
       - inxi
       - j4-dmenu-desktop
@@ -160,3 +160,5 @@ modules:
       # this sets up the proper policy & signing files for signed images to work
       - signing.sh
       - cargo.sh
+      # - nushell.sh - installed with cargo.sh
+      # - swayr.sh - installed with cargo.sh
