@@ -36,6 +36,7 @@ modules:
       - https://copr.fedorainfracloud.org/coprs/varlad/zellij/repo/fedora-%OS_VERSION%/varlad-zellij-fedora-%OS_VERSION%.repo
       - https://copr.fedorainfracloud.org/coprs/wezfurlong/wezterm-nightly/repo/fedora-%OS_VERSION%/wezfurlong-wezterm-nightly-fedora-%OS_VERSION%.repo
       - https://terra.fyralabs.com/terra.repo
+      - https://gist.githubusercontent.com/ecocode/f910ca1621ba29220074bc281e6b8a78/raw/662976c2be68b1b8dff5066450d6392b11add76e/insync.repo
     install:
       - atool
       - bat
@@ -61,7 +62,7 @@ modules:
       - grim
       - hotspot
       - imv
-      # - insync
+      - insync
       - intel-media-driver
       - inxi
       - j4-dmenu-desktop
