@@ -6,7 +6,9 @@ description: This is my personal Silverblue Nvidia image.
 # the base image to build on top of (FROM) and the version tag to use
 base-image: ghcr.io/ublue-os/silverblue-nvidia
 # image-version: 38 # latest is also supported if you want new updates ASAP
-image-version: latest
+# latest is still updating to 38
+# image-version: latest
+image-version: 39
 
 # module configuration, executed in order
 # you can include multiple instances of the same module
