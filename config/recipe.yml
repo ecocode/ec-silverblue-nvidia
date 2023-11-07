@@ -51,7 +51,7 @@ modules:
       # - distrobox
       - egl-wayland
       - entr
-      - exa
+      - eza
       - fd-find
       - firewall-config
       - fish
