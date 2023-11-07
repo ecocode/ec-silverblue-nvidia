@@ -46,7 +46,6 @@ modules:
       - bat
       - bemenu
       - bettercap
-      - binutils
       - cargo
       - cryfs
       - dconf-editor
