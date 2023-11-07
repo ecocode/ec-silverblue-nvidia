@@ -7,6 +7,6 @@ set -oue pipefail
 
 echo 'This script will install nushell from cargo.io'
 
-export CARGO_RUSTFLAGS='["-C", "linker=clang", "-C", "link-arg=-fuse-ld=lld"]'
+ln -sf /usr/bin/ld.bfd /etc/alternatives/ld && ln -sf /etc/alternatives/ld /usr/bin/ld
 
 cargo install --root /usr nu
