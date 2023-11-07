@@ -52,7 +52,6 @@ modules:
       # - distrobox
       - egl-wayland
       - entr
-      - exa
       - eza
       - fbreader
       - fd-find
