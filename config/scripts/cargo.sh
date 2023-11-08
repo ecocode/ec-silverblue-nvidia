@@ -5,6 +5,9 @@
 # builds actually ran successfully without any errors!
 set -oue pipefail
 
-echo 'This script will install swayr from cargo.io'
+echo 'This script will install modules from cargo.io'
 
+ln -sf /usr/bin/ld.bfd /etc/alternatives/ld && ln -sf /etc/alternatives/ld /usr/bin/ld
+
+cargo install --root /usr nu
 cargo install --root /usr swayr

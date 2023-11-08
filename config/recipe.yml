@@ -89,6 +89,7 @@ modules:
       - nvtop
       - odt2txt
       - openh264
+      - openssl-devel
       - pasystray
       - perf
       - perl-File-MimeInfo
@@ -156,5 +157,4 @@ modules:
     scripts:
       # this sets up the proper policy & signing files for signed images to work
       - signing.sh
-      - nushell.sh
-      - swayr.sh
+      - cargo.sh
