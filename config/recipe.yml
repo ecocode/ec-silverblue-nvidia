@@ -48,7 +48,6 @@ modules:
       - cargo
       - cryfs
       - dconf-editor
-      # - distrobox
       - egl-wayland
       - entr
       - eza
@@ -107,8 +106,8 @@ modules:
       - sway
       - swayidle
       - swaylock
-      # - swayr
       - taskopen
+      - tilix
       - tmux
       - trash-cli
       - variety
