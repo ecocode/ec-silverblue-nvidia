@@ -49,7 +49,6 @@ modules:
       - cargo
       - cryfs
       - dconf-editor
-      # - distrobox
       - egl-wayland
       - entr
       - eza
@@ -109,7 +108,6 @@ modules:
       - sway
       - swayidle
       - swaylock
-      # - swayr - installed from scripts/cargo.sh
       - taskopen
       - tilix
       - tmux
@@ -163,4 +161,3 @@ modules:
       - signing.sh
       - cargo.sh
       # - nushell.sh - installed with cargo.sh
-      # - swayr.sh - installed with cargo.sh
