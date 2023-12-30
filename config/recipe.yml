@@ -117,6 +117,7 @@ modules:
       - virt-viewer
       - waybar
       # - wayfire
+      - webkit2gtk4.0
       - wdisplays
       - wezterm
       - wl-clipboard
