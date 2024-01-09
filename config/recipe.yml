@@ -40,6 +40,7 @@ modules:
       - https://copr.fedorainfracloud.org/coprs/wezfurlong/wezterm-nightly/repo/fedora-%OS_VERSION%/wezfurlong-wezterm-nightly-fedora-%OS_VERSION%.repo
       - https://terra.fyralabs.com/terra.repo
       - https://gist.github.com/ecocode/f910ca1621ba29220074bc281e6b8a78/raw/daa76873e8a38e16b0575b9c8099324667cb7dcf/insync.repo
+      - https://fbreader.org/linux/rpms/fbreader.repo
     install:
       - atool
       - bat
@@ -51,6 +52,7 @@ modules:
       - egl-wayland
       - entr
       - eza
+      - fbreader
       - fd-find
       - firewall-config
       - fish
