@@ -48,6 +48,7 @@ modules:
       - bettercap
       - cargo
       - cryfs
+      - distrobox
       - dconf-editor
       - egl-wayland
       - entr
@@ -106,6 +107,7 @@ modules:
       - starship
       - strace
       - sway
+      # - swayr - installed from scripts/cargo.sh
       - swayidle
       - swaylock
       - taskopen
@@ -160,4 +162,3 @@ modules:
       # this sets up the proper policy & signing files for signed images to work
       - signing.sh
       - cargo.sh
-      # - nushell.sh - installed with cargo.sh
