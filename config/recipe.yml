@@ -43,6 +43,7 @@ modules:
       - https://fbreader.org/linux/rpms/fbreader.repo
     install:
       - atool
+      - appimagelauncher
       - bat
       - bemenu
       - bettercap
