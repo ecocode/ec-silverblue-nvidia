@@ -115,6 +115,7 @@ modules:
       - tilix
       - tmux
       - trash-cli
+      - usbip
       - variety
       - virt-install
       - virt-manager
