@@ -25,6 +25,9 @@ modules:
           # should be added into /usr/etc/ as that is the proper "distro"
           # config directory on ostree. Read more in the files module's README
 
+  - type: script
+    scripts:
+      - repo-gpg-imports.sh
   - type: rpm-ostree
     repos:
       - https://copr.fedorainfracloud.org/coprs/alternateved/bleeding-emacs/repo/fedora-%OS_VERSION%/alternateved-bleeding-emacs-fedora-%OS_VERSION%.repo
@@ -42,14 +45,14 @@ modules:
       - https://gist.github.com/ecocode/f910ca1621ba29220074bc281e6b8a78/raw/daa76873e8a38e16b0575b9c8099324667cb7dcf/insync.repo
       - https://fbreader.org/linux/rpms/fbreader.repo
       # BRAVE Browser
-      # - https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
+      - https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
     install:
       - atool
       - appimagelauncher
       - bat
       - bemenu
       - bettercap
-      # - brave-browser
+      - brave-browser
       - cargo
       - cryfs
       - distrobox
