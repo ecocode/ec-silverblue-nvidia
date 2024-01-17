@@ -53,6 +53,7 @@ modules:
       - dconf-editor
       - egl-wayland
       - entr
+      - epiphany
       - eza
       - fbreader
       - fd-find
