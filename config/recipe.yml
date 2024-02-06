@@ -49,6 +49,7 @@ modules:
       - bat
       - bemenu
       - bettercap
+      - blueman
       # - brave-browser
       - cargo
       - cryfs
