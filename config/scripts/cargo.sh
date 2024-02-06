@@ -9,5 +9,5 @@ echo 'This script will install modules from cargo.io'
 
 ln -sf /usr/bin/ld.bfd /etc/alternatives/ld && ln -sf /etc/alternatives/ld /usr/bin/ld
 
-cargo install --no-track --root /usr nu swayr
+cargo install --no-track --frozen --root /usr nu swayr
 # cargo install --root /usr swayr
