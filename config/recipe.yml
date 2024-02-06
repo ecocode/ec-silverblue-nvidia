@@ -138,21 +138,21 @@ modules:
       - firefox # default firefox removed in favor of flatpak
       - firefox-langpacks # langpacks needs to also be removed to prevent dependency problems
 
-  - type: bling # configure what to pull in from ublue-os/bling
-    install:
+#  - type: bling # configure what to pull in from ublue-os/bling
+#    install:
       # - justfiles
         # add "!include /usr/share/ublue-os/just/bling.just"
         # in your custom.just (added by default) or local justfile
-      - nix-installer # shell shortcuts for determinate system's nix installers
-      - ublue-os-wallpapers
+      # - nix-installer # shell shortcuts for determinate system's nix installers
+      # - ublue-os-wallpapers
       # - ublue-update # https://github.com/ublue-os/ublue-update
-      - 1password # install 1Password (stable) and `op` CLI tool
+      # - 1password # install 1Password (stable) and `op` CLI tool
       # - dconf-update-service # a service unit that updates the dconf db on boot
       # - devpod # https://devpod.sh/ as an rpm
       # - gnome-vrr # enables gnome-vrr for your image
       # - container-tools # installs container-related tools onto /usr/bin: kind, kubectx, docker-compose and kubens
       # - laptop # installs TLP and configures your system for laptop usage
-      - flatpaksync # allows synchronization of user-installed flatpaks, see separate documentation section
+      # - flatpaksync # allows synchronization of user-installed flatpaks, see separate documentation section
 
 
   - type: yafti
