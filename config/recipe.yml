@@ -195,4 +195,5 @@ modules:
     scripts:
       # this sets up the proper policy & signing files for signed images to work
       - signing.sh
-      # - cargo.sh # this script installs rust packages from cargo.io
+      # this script installs rust packages from cargo.io
+      # - cargo.sh
