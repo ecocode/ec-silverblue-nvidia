@@ -92,7 +92,7 @@ modules:
       - network-manager-applet
       - NetworkManager-tui
       - nnn
-      # - nushell - installed from scripts/cargo.sh
+      - nushell - installed from scripts/cargo.sh
       # - nvidia-vaapi-driver
       - nvtop
       - odt2txt
@@ -195,4 +195,4 @@ modules:
     scripts:
       # this sets up the proper policy & signing files for signed images to work
       - signing.sh
-      - cargo.sh
+      # - cargo.sh # this script installs rust packages from cargo.io
