@@ -92,7 +92,7 @@ modules:
       - network-manager-applet
       - NetworkManager-tui
       - nnn
-      - nushell - installed from scripts/cargo.sh
+      - nushell
       # - nvidia-vaapi-driver
       - nvtop
       - odt2txt
