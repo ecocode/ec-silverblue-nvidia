@@ -114,9 +114,8 @@ modules:
       - starship
       - strace
       - sway
-      # - swayr - installed from scripts/cargo.sh
       - rust-swayr
-      - rust-swayrbar
+      # - rust-swayrbar
       - swayidle
       - swaylock
       - taskopen
