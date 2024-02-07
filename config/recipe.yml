@@ -114,8 +114,7 @@ modules:
       - starship
       - strace
       - sway
-      - rust-swayr
-      # - rust-swayrbar
+      - swayr
       - swayidle
       - swaylock
       - taskopen
