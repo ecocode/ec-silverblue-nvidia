@@ -90,6 +90,7 @@ modules:
       - mako
       - mediainfo
       - mpv
+      - neovim
       - network-manager-applet
       - NetworkManager-tui
       - nnn
