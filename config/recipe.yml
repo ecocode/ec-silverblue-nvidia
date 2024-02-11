@@ -46,6 +46,7 @@ modules:
       # - https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
     install:
       - atool
+      - alot
       - appimagelauncher
       - bat
       - bemenu
