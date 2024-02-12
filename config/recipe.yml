@@ -59,7 +59,8 @@ modules:
       - dconf-editor
       - egl-wayland
       - entr
-      - epiphany
+      # epiphany is the package name of gnome web
+      # - epiphany
       - eza
       - fbreader
       - fd-find
