@@ -117,6 +117,7 @@ modules:
       - starship
       - strace
       - sway
+      - swaybg
       - swayr
       - swayidle
       - swaylock
