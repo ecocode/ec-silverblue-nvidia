@@ -11,3 +11,5 @@ ln -sf /usr/bin/ld.bfd /etc/alternatives/ld && ln -sf /etc/alternatives/ld /usr/
 
 # cargo install --no-track --frozen --root /usr nu swayr
 # cargo install --root /usr swayr
+
+cargo install --locked yazi-fm
