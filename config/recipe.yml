@@ -9,7 +9,7 @@ base-image: ghcr.io/ublue-os/silverblue-nvidia
 # latest is still updating to 38
 # image-version: latest
 # see https://github.com/ublue-os/nvidia/pkgs/container/silverblue-nvidia/versions for versions available
-image-version: 39
+image-version: 40
 
 # module configuration, executed in order
 # you can include multiple instances of the same module
